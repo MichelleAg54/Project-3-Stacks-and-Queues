@@ -157,7 +157,7 @@ class Queue
             while (!queue.empty()) {
                 message += reverse(pop());
             }
-            std::cout << /*"Processed Message: " <<*/ message << std::endl;
+            std::cout << message << std::endl;
         }
 };
 
